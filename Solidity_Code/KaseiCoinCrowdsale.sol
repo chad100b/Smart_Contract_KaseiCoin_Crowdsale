@@ -40,7 +40,7 @@ contract KaseiCoinCrowdsaleDeployer {
 
         // Create a new instance of the `KaseiCoinCrowdsale` contract
         KaseiCoinCrowdsale kasei_crowdsale =
-            new XP_TokenCrowdsale(1, wallet, token);
+            new KaseiCoinCrowdsale(1, wallet, token);
             
         // Aassign the `KaseiCoinCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
         kasei_crowdsale_address = address(kasei_crowdsale);
@@ -53,4 +53,3 @@ contract KaseiCoinCrowdsaleDeployer {
         token.renounceMinter();
     }
 }
-*/

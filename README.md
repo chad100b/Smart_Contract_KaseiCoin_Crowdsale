@@ -47,9 +47,23 @@ The following subsections will be performed to complete the project:
 ## Evaluation Evidence
 1. Deploy the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
 
+* Successful Deploy of KaseiCoin.sol
+
+![KaseiCoin Deployment](Images/KaseiCoin_Deploy.png)
+
+* Successful Deploy of KaseiCoinCrowdsale.sol Minter Contract
+
+![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsale_Minter.png)
+
+* Successful Deploy of KaseiCoinCrowdsale.sol Deployer Contract
+
+![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsale_Deployer.png)
 
 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
 
+* Successful Deploy of KaseiCoinCrowdsale.sol
+
+![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsale_Deployer.png)
 
 3. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
 

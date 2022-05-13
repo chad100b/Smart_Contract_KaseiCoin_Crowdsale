@@ -1,6 +1,5 @@
 # Smart_Contract_KaseiCoin_Crowdsale
 Develop, Deploy and Test a Crowdsale Smart Contract on a Local Blockchain
-# Unit 21: Martian Token Crowdsale
 
 ![alt=""](Images/application-image.png)
 
@@ -45,51 +44,45 @@ The following subsections will be performed to complete the project:
 4. Deploy and Test the Crowdsale on a Local Blockchain - Deployment and testing results contained in **Evaluation Evidence** section.
 
 ## Evaluation Evidence
-1. Deploy the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
 
-* Successful Deploy of KaseiCoin.sol
+### 1. Compile the contracts by using Remix.
 
-![KaseiCoin Deployment](Images/KaseiCoin_Deploy.png)
+* Successful Compile of KaseiCoin.sol
 
-* Successful Deploy of KaseiCoinCrowdsale.sol Minter Contract
+![KaseiCoin Compiled](Images/KaseiCoin_Deploy.png)
 
-![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsale_Minter.png)
+* Successful Compile of KaseiCoinCrowdsale.sol Minter Contract
+
+![KaseiCoinCrowdsale Compiled](Images/KaseiCoinCrowdsale_Minter.png)
+
+* Successful Compile of KaseiCoinCrowdsale.sol Deployer Contract
+
+![KaseiCoinCrowdsale Compiled](Images/KaseiCoinCrowdsale_Deployer.png)
+
+### 2. Deploy and Test the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
 
 * Successful Deploy of KaseiCoinCrowdsale.sol Deployer Contract
 
-![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsale_Deployer.png)
+![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsaleDeployer_Deployed.png)
+
+* Kasei Crowdsale Address and Token Address
+
+![Crowdsale Address](Images/Crowdsale_Address_Token.png)
 
 2. Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
 
-* Successful Deploy of KaseiCoinCrowdsale.sol
+* Crowdsale Launch, ready to buy Tokens
 
-![KaseiCoinCrowdsale Deployment](Images/KaseiCoinCrowdsale_Deployer.png)
+![Crowdsale Launch](Images/Crowdsale_buyTokens.png)
+
+* Balance of Account that purchased the crowdsale token
+
+![Crowdsale Launch](Images/Crowdsale_balancePurchase.png)
 
 3. Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
 
+* Total supply of minted tokens the crowdsale has raised
 
-In the `README.md` file of your GitHub repository for this homework assignment, you’ll create a section named Evaluation Evidence. In this section, you’ll share screenshots of your work from each subsection of the assignment.
-
-Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your GitHub repository.
-
-
-7. Take a screenshot of the successful compilation of the contract, and add it to the Evaluation Evidence section of the `README.md` file for your Git repository.
-
-
-
-
-
-
-
-8. Create a GitHub repository and a `README.md` file that explains the process for buying KaseiCoin.
-
-Make sure that your `README.md` file includes screenshots that illustrate the functionality of your contracts as the earlier instructions detailed.
-
-You can also record your interactions with the executed contract as a short video or an animated GIF. To record a video, you can use the following tools:
-
-* If you’re working on macOS, you can create a screen recording by using the built-in QuickTime player. To learn more about this tool, refer to [Use QuickTime Player](https://support.apple.com/en-us/HT208721#quicktime) in the Apple Support documentation.
-
-
-* To create an animated GIF, you can use [Recordit](https://recordit.co/) on either macOS or Windows.
+![Crowdsale Launch](Images/Crowdsale_totalSupply.png)
 
 ---
